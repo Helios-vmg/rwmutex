@@ -1,0 +1,12 @@
+/msvc/.vs/
+*.exe
+*.pdb
+*.recipe
+*.ilk
+*.log
+*.tlog
+*.o
+*.lastbuildstate
+*.obj
+*.idb
+*.user
