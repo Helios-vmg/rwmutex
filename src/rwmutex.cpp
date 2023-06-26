@@ -26,7 +26,7 @@ void rwlock::upgrade(){
 void rwlock::downgrade(){
 	if (state != 2)
 		throw std::runtime_error("incorrect use");
-	m.upgrade();
+	m.downgrade();
 	state = 1;
 }
 
